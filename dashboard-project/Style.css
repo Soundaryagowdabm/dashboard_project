@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #213448;
+    color: #448cd8;
+    line-height: 1.5;
+    font-family: 'Product Sans', sans-serif;
+
+    height: 100%;
+}
+
+.Container{
+    display: flex;
+
+    height: 100vh;
+}
+
+.Sidebar{
+    background-color:#94B4C1;
+    padding: 45px;
+    border-right: 1px black;
+    height: 100vh;
+}
+
+.Profile{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.Profile h2{
+    font-weight: 600;
+    color:beige;
+    margin-bottom: 10px;
+    font-size: large;
+    white-space:nowrap;
+}
+.Profile p{
+    font-weight: 500;
+    font-size: medium;
+    color:rgb(61, 120, 120);
+    white-space:nowrap;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(185, 134, 66);
+    font-size: 20px;
+    align-items: center;
+    transition: 0.3s ease;
+    display: flex;
+    gap: 500px;
+}
+.Navbar a:hover{
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.Main-content{
+    padding: 40px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:30px;
+}
+
+.Search-bar{
+    display: flex;
+    gap: 10px;
+}
+.Search-bar input{
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 80px;
+    border: 2px solid green;
+}
+.Search-bar img{
+    height: 30px;
+    width: 30px;
+}
+.button-icon{
+    background-color:#213448 ;
+    border-radius:50px;
+}
+.button-icon:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.Social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 700px;
+}
+.Social img{
+    height: 50px;
+    width: 50px;
+}
+
+.Stats{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.Stat-card{
+    background-color: #94B4C1;
+    width: 25%;
+    padding: 13px;
+    font-weight: 16px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    margin-bottom: 10px;
+}
+.Stat-card:hover{
+    transform: translateY(-5px);
+}
+.Stat-card h3{
+    margin-bottom: 8px;
+    color: rgb(67, 133, 133);
+    font-size: 20px;
+}
+.Stat-card p{
+    color: #eff0f2;
+    font-size: 12px;
+}
+
+.Skill-section{
+    background-color: #94B4C1;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.Skill-section h2{
+    margin-bottom: 7px;
+    font-size: 20px
+}
+.Skill-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:rgb(131, 134, 52);
+}
+.Skill-div h4{
+    font-size: 15px;
+}
+
+progress{
+    width: 100%;
+    height: 7px;
+    border-radius: 20px;
+    background-color:#213448;
+}
+progress::-webkit-progress-bar{
+    background-color:#7a899a;
+}
+progress::-webkit-progress-value{
+    background-color: #954de8;
+}
+
+.Project-sec {
+    background-color: #94B4C1;
+    padding: 25px;
+    border-radius: 20px;
+}
+.Project-sec h2 {
+    font-size: 20px;
+}
+.Project {
+    float: left;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(70, 168, 171);
+    font-size: 13px;
+    margin: 8px 18px;
+    box-sizing: border-box;
+    width: 25%;
+    color: #763e61;
+}
+.Project-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
